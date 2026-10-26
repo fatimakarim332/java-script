@@ -17,3 +17,7 @@ let institute1 =institute.toLowerCase()
 console.log(institute1);
  console.log(institute1.indexOf("s"));
 
+let course ="WEB DEVELOPMENT"
+let course2 =course.toLowerCase()
+console.log(course2 );
+console.log(course2.indexOf("development"));

@@ -231,8 +231,68 @@ console.log(sentences1.charAt(9));
 let word = " family is important in life  "
 console.log(word.startsWith( " family"));
 
+// emdWith
 
 let word1 = " family is important in life"
 console.log(word1.endsWith ( "life"));
 
+// split
 
+let word4 = " family is important in life"
+console.log(word4.split ( ""));
+
+// repeat
+let word9 = " hello"
+console.log(word9.repeat ( "10"));
+
+// Number
+//  adddition
+let num1  = 20
+let num2  = 10
+let num3  = 40
+let num4 = 50
+let  results = num1 + num2 + num3 + num4
+console.log( results );
+
+// subtraction
+let num5  = 20
+let num6  = 10
+let num7 = 40
+let num8 = 50
+let  result = num5 - num6 - num7 -num8
+console.log( result );
+
+// multplication
+
+let num9  = 20
+let num10  = 10
+let num11 = 40
+let num12 = 50
+let  result1 = num9 *num10 *  num11 *num12
+console.log( result1 );
+
+// division
+let num13  = 20
+let num14  = 10
+let num15= 40
+let num16 = 50
+let  result2 = num13  /num14 / num15 / num16
+console.log( result2 );
+
+
+let num19= 40
+let num20 = 50
+let  result3 =   num19  **num20
+console.log( result3 );
+
+let num17  = 20
+let num22 = 10
+let  result4 = num17 % num22
+console.log( result4 );
+
+// Number method
+// to Fixed ()
+let price =95.6556365
+console.log(price);
+console.log(price .toFixed(1));
+//    toString()

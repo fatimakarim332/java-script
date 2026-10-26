@@ -1,0 +1,257 @@
+
+
+
+//  let table = prompt("enter a number for tables")
+//  console.log(table);
+// document.write ( `<p>Program to print multiplication table of a number</p>`)
+// let number= table 
+// document.write (`<p>${number}*1 = ${number*1}</p>`)
+// document.write (`<p>${number}*2 = ${number*2}</p>`)
+// document.write (`<p>${number}*3 = ${number*3}</p>`)
+// document.write (`<p>${number}*4 = ${number*4}</p>`)
+// document.write (`<p>${number}*5 = ${number*5}</p>`)
+// document.write (`<p>${number}*6 = ${number*6}</p>`)
+// document.write (`<p>${number}*7 = ${number*7}</p>`)
+// document.write (`<p>${number}*8 = ${number*8}</p>`)
+// document.write (`<p>${number}*9 = ${number*9}</p>`)
+// document.write (`<p>${number}*10 = ${number*10}</p>`)
+
+// document.write ( `<p>Program to print multiplication table of a number</p>`)
+// let numb= 12
+// document.write (`<p>${numb}*1 = ${numb*1}</p>`)
+// document.write (`<p>${numb}*2 = ${numb*2}</p>`)
+// document.write (`<p>${numb}*3 = ${numb*3}</p>`)
+// document.write (`<p>${numb}*4 = ${numb*4}</p>`)
+// document.write (`<p>${numb}*5 = ${numb*5}</p>`)
+// document.write (`<p>${numb}*6 = ${numb*6}</p>`)
+// document.write (`<p>${numb}*7 = ${numb*7}</p>`)
+// document.write (`<p>${numb}*8 = ${numb*8}</p>`)
+// document.write (`<p>${numb}*9 = ${numb*9}</p>`)
+// document.write (`<p>${numb}*10 = ${numb*10}</p>`)
+
+// let addition =+prompt("give me two number")
+// console.log(addition);
+
+// let addition1 =+prompt("give me second  number")
+// console.log(addition1);
+
+//  document.write (`<p>${addition} + ${ addition1} = ${addition + addition1}</p>`)
+
+//  let addition3 = prompt("give me two number")
+// console.log(addition3);
+
+// let addition4 = prompt("give me second  number")
+//  console.log(addition1);
+//   document.write (`<p>${addition} - ${ addition1} = ${addition - addition1}</p>`)
+
+//   document.write (`<p>${addition} * ${ addition1} = ${addition * addition1}</p>`)
+//     document.write (`<p>${addition} / ${ addition1} = ${addition / addition1}</p>`)
+
+//       let name =   prompt("what is your name ?")
+//     console.log(name);
+    
+
+// let name1=   prompt("what is your name ?" , "noor")
+//   console.log(name1);
+
+// round off 
+//  let integer = prompt("give me integer number")
+//  console.log(integer);
+
+
+// console.log("Round: " + Math.round(integer));
+// console.log("Ceil: " + Math.ceil(integer));
+// console.log("Floor: " + Math.floor(integer));
+
+// question1
+
+// let a = 5;  //7 
+// let b = 4;  //3
+// let result = ++a + b-- + a++;
+//            //6 + 4 + 6
+              // 10 +6
+//            //16
+//  console.log(a);
+//  console.log(b);
+//  console.log(result);
+ 
+// question2
+ 
+//  let a= 2; //4 
+// let b = 3; //3
+// let result1 = a++ + ++a + --b + b++;          
+//          //2 + 3+ 2 + 3
+             //5 +5
+//          //10
+
+//  console.log(a);
+// console.log(b);
+//  console.log(result1);
+
+// question3
+
+//  let a = 10; // 9
+// let b = 5; // 7
+// let result = --a + b++ - ++b;
+//            //9 + 5 -7
+//             //14- 7 
+//             // 7
+   
+//  console.log(a);
+//  console.log(b);
+// console.log(result);
+
+
+ //question 4
+
+
+// let a = 4;  //3
+// let b = 2; //4
+// let result = ++a * b++ + --a;
+//         // 5 * 2 + 4
+//         //10+4
+//        // 14
+          
+//   console.log(a);
+// console.log(b);
+//  console.log(result);
+
+//  question5
+// let a = 6;  //6
+// let b = 3;  //3
+// let result = a-- + --b + ++a + b++;
+//             //6 + 2 + 6 + 2
+//             //8 + 8
+//             //16
+
+//  console.log(a);
+// console.log(b);
+//   console.log(result);
+// question6
+// let a = 2; //4
+// let b = 4; //3
+// let result = ++a + a++ * --b;
+//             // 3 *3 + 3
+//             //9+3
+//             // 12  
+            
+//   console.log(a);
+//  console.log(b);
+//   console.log(result);
+
+  // question7
+
+//   let a = 5;  //6 
+//   let b = 2;   //2
+// let result = ++a + a++ + --b * b++ - a--;
+//           //6 + 6 + 1 * 1 - 7
+//            // 1 + 12 - 7
+//            //13-7
+//            //6
+//   console.log(a);
+//   console.log(b);
+//   console.log(result);
+
+
+//   let marks = 25
+//   let marks1 =25
+//   console.log(marks >=20 ); //true
+//   console.log(marks1 <=20);//false
+//   console.log(marks <="20");  //false
+//   console.log(marks ===20); //false
+//   console.log(marks==20); //false
+//   console.log(marks=="20"); //false
+//   console.log(20==20);//true
+//   console.log("20"==20); //true
+//   console.log("20"===20);//false
+//   console.log(null==undefined); //true
+//   console.log(1==true); //true
+//   console.log(1===true); //f
+  
+
+//assignment 
+// let signal =prompt("give me a color")
+// if (signal === "red") {
+//   alert("stop");
+   
+// }
+// else if(signal==="yellow"){
+// alert("go ready")
+// }
+
+// else if(signal==="green"){
+// alert("go ")
+// }
+
+// else{
+// alert("invalid signal")
+// }
+
+
+
+//   let marks = +prompt("ENTER YOUR MARKS")
+
+
+//  if(marks >100 ){
+//     alert("invalied")
+//   }
+
+// else if (
+//   marks ==0){
+//     alert("enter your number")
+//   }
+//     else if (marks >= 100){
+//     alert("A+")}
+    
+//   else if(marks >=80 ){
+//     alert("A")
+//   }
+  
+//   else if(marks >=70 ){
+//     alert("B")
+//   }
+    
+//   else if(marks >=60){
+//     alert("c")
+//   }
+//     else if(marks >=50 ){
+//     alert("D")
+//   }
+
+//   else{
+//     alert("fail")
+//   }
+// NESTED CONDITIONS
+
+//  let username = +prompt("enter your username");
+// let password = +prompt("enter your password");
+// if (username ==="fatima") {
+//   if (password ===1234) {
+//     alert(" login Successful")
+//   }else{
+//  alert(" wrong password")
+//   }
+// }else{
+// alert("Invalid Username")
+// }
+// practice 
+let pin = +prompt("enter  your password");
+let balance =5000000;
+let withdraw =+prompt(" how to withdraw a cash");
+
+
+ if (pin === 1234){
+  alert("pin is correct")
+if (withdraw <= balance) {
+  alert("you amount is with draw")
+}
+else{
+  alert("invalid sufficient")
+}
+
+}else{
+alert("invalid pin")
+} 
+document.write(`your balance is ${withdraw} is ${balance}`) /n
+document.write(`your balance is ${balance} is ${withdraw}`)
+
