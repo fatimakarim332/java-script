@@ -314,10 +314,45 @@
 // studentslength = 0
 // console.log(students);
 // Nested Array
-let nested =["ali" ,["box2" ,"box2 sister" ,["kiwi","banana"]] ,[1,2,3,4,5] ,["box3" ,"box3 sister" ,["ali","ayesha" ] ,true]]
-console.log(nested);
-console.log(nested[1][2][1]);
-console.log(nested[nested.length-1]);
-console.log(nested[3][2][1]);
+// let nested =["ali" ,["box2" ,"box2 sister" ,["kiwi","banana"]] ,[1,2,3,4,5] ,["box3" ,"box3 sister" ,["ali","ayesha" ] ,true]]
+// console.log(nested);
+// console.log(nested[1][2][1]);
+// console.log(nested[nested.length-1]);
+// console.log(nested[3][2][1]);
 
+// chatgpt questions
+
+let menu = [  ["Burger", 500],  ["Pizza", 1200],  ["Sandwich", 350], ["Pasta", 800]
+];
+console.log(menu[1][1]);
+console.log(menu[2][0]);
+console.log(menu[3][1]);
+
+let studentData = [["Ali", 75],["Sara", 80], ["Ahmed", 68]];
+studentData[1][1] = 85
+console.log(studentData);
+studentData[2][0] = "hamza"
+
+let marks = [75, 82, 91, 68, 88];
+console.log(marks[0]);
+console.log(marks[2]);
+console.log(marks[menu.length]);
+
+let seats = ["Seat 1", "Seat 2", "Seat 3", "Seat 4", "Seat 5", "Seat 6"];
+console.log(seats[seats.length -1]);
+
+let products = ["Laptop", "Mouse", "Keyboard", "Monitor"];
+console.log(products[2]);
+
+let employees =[["Ali",300000] , ["Fatima",700000], ["Ayesha",100000] ,["Mirha",100000]]
+console.log(employees[1][0]);
+console.log(employees[2][1]);
+employees[3][0]="hira"
+console.log(employees);
+console.log(employees.length -1);
+console.log(employees);
+// Totalamount =  300000 + 700000 +100000 +100000
+// console.log(Totalamount);
+// console.log(Totalamount =1200000);
+console.log(employees[0][1]+ employees[1][1]+ employees[2][1] +employees[3][1]);
 
