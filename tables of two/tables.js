@@ -49,7 +49,7 @@
 
 //       let name =   prompt("what is your name ?")
 //     console.log(name);
-    
+
 
 // let name1=   prompt("what is your name ?" , "noor")
 //   console.log(name1);
@@ -69,19 +69,19 @@
 // let b = 4;  //3
 // let result = ++a + b-- + a++;
 //            //6 + 4 + 6
-              // 10 +6
+// 10 +6
 //            //16
 //  console.log(a);
 //  console.log(b);
 //  console.log(result);
- 
+
 // question2
- 
+
 //  let a= 2; //4 
 // let b = 3; //3
 // let result1 = a++ + ++a + --b + b++;          
 //          //2 + 3+ 2 + 3
-             //5 +5
+//5 +5
 //          //10
 
 //  console.log(a);
@@ -96,13 +96,13 @@
 //            //9 + 5 -7
 //             //14- 7 
 //             // 7
-   
+
 //  console.log(a);
 //  console.log(b);
 // console.log(result);
 
 
- //question 4
+//question 4
 
 
 // let a = 4;  //3
@@ -111,7 +111,7 @@
 //         // 5 * 2 + 4
 //         //10+4
 //        // 14
-          
+
 //   console.log(a);
 // console.log(b);
 //  console.log(result);
@@ -134,12 +134,12 @@
 //             // 3 *3 + 3
 //             //9+3
 //             // 12  
-            
+
 //   console.log(a);
 //  console.log(b);
 //   console.log(result);
 
-  // question7
+// question7
 
 //   let a = 5;  //6 
 //   let b = 2;   //2
@@ -167,13 +167,13 @@
 //   console.log(null==undefined); //true
 //   console.log(1==true); //true
 //   console.log(1===true); //f
-  
+
 
 //assignment 
 // let signal =prompt("give me a color")
 // if (signal === "red") {
 //   alert("stop");
-   
+
 // }
 // else if(signal==="yellow"){
 // alert("go ready")
@@ -202,15 +202,15 @@
 //   }
 //     else if (marks >= 100){
 //     alert("A+")}
-    
+
 //   else if(marks >=80 ){
 //     alert("A")
 //   }
-  
+
 //   else if(marks >=70 ){
 //     alert("B")
 //   }
-    
+
 //   else if(marks >=60){
 //     alert("c")
 //   }
@@ -235,23 +235,89 @@
 // alert("Invalid Username")
 // }
 // practice 
-let pin = +prompt("enter  your password");
-let balance =5000000;
-let withdraw =+prompt(" how to withdraw a cash");
+// let pin = +prompt("enter  your password");
+// let balance =5000000;
+// let withdraw =+prompt(" how to withdraw a cash");
 
 
- if (pin === 1234){
-  alert("pin is correct")
-if (withdraw <= balance) {
-  alert("you amount is with draw")
-}
-else{
-  alert("invalid sufficient")
-}
+//  if (pin === 1234){
+//   alert("pin is correct")
+// if (withdraw <= balance) {
+//   alert("you amount is with draw")
+// }
+// else{
+//   alert("invalid sufficient")
+// }
 
-}else{
-alert("invalid pin")
-} 
-document.write(`your balance is ${withdraw} is ${balance}`) /n
-document.write(`your balance is ${balance} is ${withdraw}`)
+// }else{
+// alert("invalid pin")
+// } 
+// document.write(`your balance is ${withdraw} is ${balance}`) /n
+// document.write(`your balance is ${balance} is ${withdraw}`)
+
+
+//logic operators
+
+// assignment
+
+// true && true = true
+// true && false = false
+// false && true = false
+// false && false = false
+// true || true = true
+// true || false = true
+// false || true = true
+// false || false = false
+// !true = false
+// !false = true
+// true && !false =  true
+// true && !false = true
+// !true && false = false
+// (true && false) || (true && true) = true
+// (!false && true) || !true = true
+// (true || false) && !(false && true) = false
+// false || true && false = true
+// !false || false && true = true
+// true && !true || false = false
+// !false && true || !true = true
+
+// console.log(true && true);
+// console.log(true && false );
+// console.log(false && true);
+// console.log(false && false);
+// console.log(true || true);
+// console.log(false || true);
+// console.log(false || false);
+// console.log(false || true);
+//  console.log(false || false);
+// console.log(!true);
+// console.log(!false);
+// console.log(true && !false);
+// console.log(!true && false);
+// console.log((true && false) || (true && true));
+// console.log(!false && true) || !true;
+// console.log((true || false) && !(false && true));
+// console.log(false || true && false);
+// console.log(!false || false && true);
+// console.log(true && !true || false);
+// console.log(!false && true || !true);
+
+// Array 
+// let students = ["mirha", "ayesha", "salma", "fatima", " nimra", "saad", "maria", "eshal", "mirza", "rimsha"]
+// console.log(students);
+// console.log(students [2]);
+// console.log(students [5]);
+// console.log(students[11]);
+// students [7]="hira"
+// console.log(students);
+// console.log(students[students.length -1 ]);
+// studentslength = 0
+// console.log(students);
+// Nested Array
+let nested =["ali" ,["box2" ,"box2 sister" ,["kiwi","banana"]] ,[1,2,3,4,5] ,["box3" ,"box3 sister" ,["ali","ayesha" ] ,true]]
+console.log(nested);
+console.log(nested[1][2][1]);
+console.log(nested[nested.length-1]);
+console.log(nested[3][2][1]);
+
 
