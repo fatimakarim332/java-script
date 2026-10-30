@@ -322,37 +322,142 @@
 
 // chatgpt questions
 
-let menu = [  ["Burger", 500],  ["Pizza", 1200],  ["Sandwich", 350], ["Pasta", 800]
-];
-console.log(menu[1][1]);
-console.log(menu[2][0]);
-console.log(menu[3][1]);
+// let menu = [  ["Burger", 500],  ["Pizza", 1200],  ["Sandwich", 350], ["Pasta", 800]
+// ];
+// console.log(menu[1][1]);
+// console.log(menu[2][0]);
+// console.log(menu[3][1]);
 
-let studentData = [["Ali", 75],["Sara", 80], ["Ahmed", 68]];
-studentData[1][1] = 85
-console.log(studentData);
-studentData[2][0] = "hamza"
+// let studentData = [["Ali", 75],["Sara", 80], ["Ahmed", 68]];
+// studentData[1][1] = 85
+// console.log(studentData);
+// studentData[2][0] = "hamza"
 
-let marks = [75, 82, 91, 68, 88];
-console.log(marks[0]);
-console.log(marks[2]);
-console.log(marks[menu.length]);
+// let marks = [75, 82, 91, 68, 88];
+// console.log(marks[0]);
+// console.log(marks[2]);
+// console.log(marks[menu.length]);
 
-let seats = ["Seat 1", "Seat 2", "Seat 3", "Seat 4", "Seat 5", "Seat 6"];
-console.log(seats[seats.length -1]);
+// let seats = ["Seat 1", "Seat 2", "Seat 3", "Seat 4", "Seat 5", "Seat 6"];
+// console.log(seats[seats.length -1]);
 
-let products = ["Laptop", "Mouse", "Keyboard", "Monitor"];
-console.log(products[2]);
+// let products = ["Laptop", "Mouse", "Keyboard", "Monitor"];
+// console.log(products[2]);
 
-let employees =[["Ali",300000] , ["Fatima",700000], ["Ayesha",100000] ,["Mirha",100000]]
-console.log(employees[1][0]);
-console.log(employees[2][1]);
-employees[3][0]="hira"
-console.log(employees);
-console.log(employees.length -1);
-console.log(employees);
-// Totalamount =  300000 + 700000 +100000 +100000
-// console.log(Totalamount);
-// console.log(Totalamount =1200000);
-console.log(employees[0][1]+ employees[1][1]+ employees[2][1] +employees[3][1]);
+// let employees =[["Ali",300000] , ["Fatima",700000], ["Ayesha",100000] ,["Mirha",100000]]
+// console.log(employees[1][0]);
+// console.log(employees[2][1]);
+// employees[3][0]="hira"
+// console.log(employees);
+// console.log(employees.length -1);
+// console.log(employees);
+// // Totalamount =  300000 + 700000 +100000 +100000
+// // console.log(Totalamount);
+// // console.log(Totalamount =1200000);
+// console.log(employees[0][1]+ employees[1][1]+ employees[2][1] +employees[3][1]);
 
+// // methods 
+// // push or pop
+// let fruits =["Apple","Mango","Grapes"]
+// console.log(fruits.push ("orange","guva"));
+// console.log(fruits);
+// console.log(fruits.pop());
+// console.log(fruits.pop());
+// console.log(fruits);
+// // unshift or shift
+// let students =["mirha","fatima","hassan","ali","hira","sahil" ]
+// console.log(students.unshift("zain","ayan"));
+// console.log( students);
+// console.log(students.shift());
+// console.log(students.shift());
+// console.log( students);
+// let marks1 =[80,78,89,78]
+// let marks2 =marks1.unshift(22 ,44)
+// console.log(marks1);
+// let mark3 =marks1.shift()
+// console.log(marks1);
+
+
+// // chatgpt
+// let students1= ["Ali", "Ahmed", "Sara"];
+
+// students1.push("Ayesha");
+// students1.pop();
+// students1.unshift("Hamza");
+// students1.shift();
+// console.log(students1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // practice 
+// let menu1 = [["burgar","pizza"] ,["tea","coffee"], ["cake","ice cream"]]
+// console.log(menu1);
+// menu1[0].unshift("sandwich")
+// menu1[1].pop()
+// console.log(menu1);
+
+
+
+
+
+// // includes
+// let  fruits1 =["Apple","Mango","Orange"]
+// results = fruits1.includes("Mango")
+// console.log(results);
+
+
+// // index of
+// let school_name =["AGK","MFS","TCF"]
+// console.log(school_name.indexOf("AGK"));
+
+
+
+// // slice
+// let country_name =["pakistan","india","england","china"]
+// console.log(country_name.slice(1,3));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// splice
+let monthly_salary =[20000,4000,6000,55000,53535,53535,899990]
+//monthly_salary.splice(1,1)        //remove 
+ //console.log(monthly_salary );
+ //monthly_salary.splice(1,0,"200000")
+ //console.log(monthly_salary);    // add items
+monthly_salary.splice(2,2,"orange")
+console.log( monthly_salary);   //replace
+  
+
+
+//concat
+let fruits =["apple" ,"mango"]
+let vegetables =["peas ","totato"]
+let roads = ["elemnts"]
+let results =fruits.concat(vegetables,roads)
+console.log(results);
