@@ -444,20 +444,87 @@
 
 
 
-// splice
-let monthly_salary =[20000,4000,6000,55000,53535,53535,899990]
-//monthly_salary.splice(1,1)        //remove 
- //console.log(monthly_salary );
- //monthly_salary.splice(1,0,"200000")
- //console.log(monthly_salary);    // add items
-monthly_salary.splice(2,2,"orange")
-console.log( monthly_salary);   //replace
+// // splice
+// let monthly_salary =[20000,4000,6000,55000,53535,53535,899990]
+// //monthly_salary.splice(1,1)        //remove 
+//  //console.log(monthly_salary );
+//  //monthly_salary.splice(1,0,"200000")
+//  //console.log(monthly_salary);    // add items
+// monthly_salary.splice(2,2,"orange")
+// console.log( monthly_salary);   //replace
   
 
 
-//concat
-let fruits =["apple" ,"mango"]
-let vegetables =["peas ","totato"]
-let roads = ["elemnts"]
-let results =fruits.concat(vegetables,roads)
-console.log(results);
+// //concat
+// let fruits =["apple" ,"mango"]
+// let vegetables =["peas ","totato"]
+// let roads = ["elemnts"]
+// let results =fruits.concat(vegetables,roads)
+// console.log(results);
+
+
+// // reverse
+// let number = [30,44 ,33,66]
+// console.log(number.reverse());
+ 
+// // join
+// let words =["i","love","html"]
+// console.log(words.join(" "));
+// console.log(words.split);
+
+
+// // sort
+// let fruits =["apple","banana","orange" ,"carrot"]
+// console.log(fruits.sort());
+// let numbers =[35 ,80,43,65 ]
+// console.log(numbers.sort());
+
+
+// loop
+
+// let number =[54,54,45,54,56,46,54,44]
+
+// for(let i = 1; i <=100 ;i++){
+//     console.log(i);
+    
+// }
+
+// for (let i =100; i>=1; i--){
+//     console.log(i);   
+// }
+
+// let fruitssar =["apple","mango","guva" ,"banana","carrot"]
+// for (let i=0;i<fruitssar.length ;i++){
+//     console.log(fruitdsar[i]);    
+// }
+// let colours=["red","purple" ,"yellow"]
+//  for (let i = colours.length-1 ;i>=0 ; i--){
+//     console.log(colours[i]);
+    
+ 
+ let car ={
+    name: "Civic",
+       colours:"black",
+    BodyType: "Sedan",
+    Battery:"12 V battery",
+    SeatingCapacity:" 5 persons",
+   style :{
+    wheels:["red","blue"],
+   Safety: "Airbags"
+}
+ }
+ console.log(car);
+ console.log(car.style);
+ console.log(car.style.wheels [1]);
+ 
+ 
+// console.log(car.colours);
+// console.log(car["Battery"]);
+// delete Body.type;
+
+
+
+
+
+
+
