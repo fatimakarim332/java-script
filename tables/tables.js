@@ -403,7 +403,7 @@
 
 
 
-// // practice 
+// // // practice 
 // let menu1 = [["burgar","pizza"] ,["tea","coffee"], ["cake","ice cream"]]
 // console.log(menu1);
 // menu1[0].unshift("sandwich")
@@ -482,7 +482,7 @@
 
 // loop
 
-// let number =[54,54,45,54,56,46,54,44]
+// let number1 =[54,54,45,54,56,46,54,44]
 
 // for(let i = 1; i <=100 ;i++){
 //     console.log(i);
@@ -502,25 +502,185 @@
 //     console.log(colours[i]);
     
  
- let car ={
-    name: "Civic",
-       colours:"black",
-    BodyType: "Sedan",
-    Battery:"12 V battery",
-    SeatingCapacity:" 5 persons",
-   style :{
-    wheels:["red","blue"],
-   Safety: "Airbags"
-}
- }
- console.log(car);
- console.log(car.style);
- console.log(car.style.wheels [1]);
+//  let car ={
+//     name: "Civic",
+//        colours:"black",
+//     BodyType: "Sedan",
+//     Battery:"12 V battery",
+//     SeatingCapacity:" 5 persons",
+//    style :{
+//     wheels:["red","blue"],
+//    Safety: "Airbags"
+// }
+//  }
+//  console.log(car);
+//  console.log(car.style);
+//  console.log(car.style.wheels [1]);
  
  
 // console.log(car.colours);
 // console.log(car["Battery"]);
 // delete Body.type;
+
+// practrice
+
+// let students ={
+//    name :"ali",
+//    class :10,
+//    address :{
+//       city :"lahore",
+//       country:"pakistan"
+//    }
+// }
+// if(students.address.city ==="karachi" ){
+// console.log(correct);
+
+// }else{
+// console.log("not correct");
+
+// }
+
+
+
+
+// const student = {
+//     id: 101,
+//     name: "Ali",
+//     age: 20,
+
+//     education: {
+//         school: "ABC School",
+//         grade: "A",
+
+//         subjects: {
+//             javascript: 85,
+//             html: 90,
+//             css: 80
+//         }
+//     },
+
+//     address: {
+//         city: "Karachi",
+//         country: "Pakistan",
+//         location: {
+//             area: "Gulshan",
+//             postalCode: 75300
+//         }
+//     }
+// };
+
+// console.log(student);
+// console.log(student.education.subjects.css);
+// console.log(student.id);
+// console.log(student.address.location.area);
+// console.log("grade"in student);
+
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+// console.log(Object.entries(student));
+
+
+// const student1 = {
+//     name: "Ali",
+//     age: 21,
+//     city: "Karachi",
+//     course: "JavaScript",
+//     marks: {
+//         html: 85,
+//         css: 90,
+//         javascript: 95
+//     },
+//     hobbies: ["Coding", "Cricket", "Reading"]
+// };
+// console.log(student1.age);
+// console.log("name"in student1);
+// console.log(Object .keys(student1));
+// console.log(Oject.values(student1));
+// console.log(Object.entries(student1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let class10 =[
+//     {
+//         name:"ali",
+//         age:10,
+//         isStudent:true,
+//         rollnumber:876676,
+// },
+//    {
+//         name:"hamna",
+//         age:13,
+//         isStudent:true,
+//         rollnumber:24376,
+// },
+// {
+//         name:"hoor",
+//         age:15,
+//         isStudent:true,
+//         rollnumber:3176,
+// },
+//  {
+//         name:"zuniash",
+//         age:13,
+//         isStudent:true,
+//         rollnumber:432376,
+// },
+//  {
+//         name:"hira",
+//         age:16,
+//         isStudent:true,
+//         rollnumber:87436,
+// }]
+
+// // console.log(class10);
+// console.log(Object.keys(class10[1]));
+// console.log(Object.entries(class10[3]));
+
+// class10[3].name ="aliyan"
+// console.log(class10[3]);
+// class10.unshift({
+//     name:"zubair",
+//     age:14,
+//     rollnumber:33333,
+// })
+// console.log(class10);
+// class10.push({
+//     name:"haider",
+//     age:14,
+//     rollnumber:77653,
+// })
+// console.log(class10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
