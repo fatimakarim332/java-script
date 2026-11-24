@@ -1,0 +1,57 @@
+#btn{
+   background-color: antiquewhite; 
+   color: black;
+   padding: 10px;
+   border-color: antiquewhite;
+   border-radius: 5px;
+
+
+}
+#button{
+   background-color: pink;
+   color: black;
+   padding: 20px;
+   border-radius: 20px;
+   border-color: pink;
+}
+#box1{
+   background-color: aquamarine;
+   height: 200px;
+   width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#decrease{
+   background-color: red;
+   color: white;
+   padding: 20px;
+   border-radius:30px;
+
+}
+#increase{
+   background-color: green;
+   color: white;
+   padding: 20px;
+   border-radius:30px;
+
+}
+
+#reset{
+    background-color: gray;
+   color: white;
+   padding: 20px;
+   border-radius:30px;
+  
+}
