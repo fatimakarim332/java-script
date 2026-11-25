@@ -120,6 +120,22 @@ console.log(num);       //  yeah return karta hn
 
 
 
+// sychronous
+console.log("task1");
+console.log("task2");
+console.log("task3");
+
+
+// asychronous
+console.log("task1");
+setTimeout(()=>{
+    console.log("task2");
+}, 2000);
+console.log("task3");
+
+
+
+
 
 
 

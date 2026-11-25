@@ -387,31 +387,12 @@
 // students1.shift();
 // console.log(students1);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // // // practice 
 // let menu1 = [["burgar","pizza"] ,["tea","coffee"], ["cake","ice cream"]]
 // console.log(menu1);
 // menu1[0].unshift("sandwich")
 // menu1[1].pop()
 // console.log(menu1);
-
-
-
 
 
 // // includes
@@ -598,25 +579,7 @@
 // console.log(Oject.values(student1));
 // console.log(Object.entries(student1));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// array in object
 // let class10 =[
 //     {
 //         name:"ali",
@@ -668,6 +631,56 @@
 // })
 // console.log(class10);
 
+// let students =
+// {
+//  name:"ayesha",
+//  age:20,
+//  city:"karachi",
+
+// }
+// for(let key in students){
+//     // console.log(key);
+//     // console.log(`${key}:${students[key]}`); 
+//     }
+    
+//     let colours =["red","blue","pink"]
+// for(
+// ){}
+
+
+
+// function
+
+// function addition(){
+//     Number1=30
+//     Number2=20
+//     console.log(number1+number2);
+    
+// }
+// addition()
+
+
+// dynamic
+              // parameter
+// function greet(name){
+//    console.log(`hello ${name}`);
+    
+// }
+// greet("fatima")
+// greet("hira")
+//  greet("hina")   // argument
+
+// function students(a,b,c){
+// let funcresults =a+b+c
+// // console.log(funcresults);
+// return funcresults
+// }
+// let finalresults=students(10,32,44)
+// console.log(finalresults);
+
+// // console.log(students(10,32,44));
+
+// console.log(finalresults);
 
 
 
@@ -680,6 +693,105 @@
 
 
 
+
+
+
+
+
+
+
+
+
+// assignment
+let patients = [
+    {
+        name: "Ali",
+        age: 25,
+        disease: "Fever",
+        fee: 1000,
+        paid: true
+    },
+    {
+        name: "Sara",
+        age: 30,
+        disease: "Flu",
+        fee: 1500,
+        paid: false
+    },
+    {
+        name: "Ahmed",
+        age: 45,
+        disease: "Cough",
+        fee: 800,
+        paid: true
+    },
+    {
+        name: "Zain",
+        age: 55,
+        disease: "Headache",
+        fee: 1200,
+        paid: false
+    }
+];
+
+function displaypatients(){
+   
+for(let i = 0; i <patients.length;i++){
+  console.log(
+   );
+  
+
+
+if( patients[0].paid==true){
+   console.log("Payment Completed");
+   
+
+}else{
+   console.log("Payment Pending");
+
+}
+}
+}
+displaypatients()
+
+//task 2
+
+//  function findPatient(){
+
+// for(let i = 0; i <patients.length;i++){
+// if(patients[i].name== name){
+// console.log(patients[i].name);
+// console.log(patients[i].disease);
+
+
+
+// }else{
+//    console.log("Patient Not Found");
+   
+
+// }
+// }
+// }
+// findPatient("ali")
+// findPatient("zain")
+// // tasks3
+// function checkSeniorPatients(){
+//    for(leti =0;i<patients.length;i++){
+//   if(patients[i].age<40) {
+//     console.log("Senior Patient"); 
+//   }else{
+//     console.log("Regular Patient");
+//   }
+//   }
+//    }
+   
+// //    tasks4
+// function countPatients(){
+   
+//    return patients.length
+
+// }
+// console.log( countPatients());
 
 
 
