@@ -114,12 +114,6 @@ let number2=[10 ,43,54,34,22 ,65 ]
 })
 console.log(num);       //  yeah return karta hn 
 
-
-
-
-
-
-
 // sychronous
 console.log("task1");
 console.log("task2");
