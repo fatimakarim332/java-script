@@ -53,6 +53,7 @@ multiplication.addEventListener("click",function () {
 })
 
 // modules
+
 let modules=document.getElementById("module")
 modules.addEventListener("click",function () {
       let value3 = +value1.value
@@ -71,5 +72,6 @@ clears.addEventListener("click",function () {
     value1 .value =" "
     value2 .value =" "
 
-
 })
+
+

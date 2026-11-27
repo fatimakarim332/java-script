@@ -1,12 +1,13 @@
 
-let para= document.getElementById("hi")
+let para = document.getElementById("hi")
 
-export let name =() =>{
-let  students1 =["ayesha","fabiha","amna ","maryam"]
-students1.forEach((element)=>{
-para.innerText += element
+export let name = () => {
+    let students1 = ["ayesha", "fabiha", "amna ", "maryam"]
+    students1.forEach((element) => {
+        para.innerText += element
 
-})};
+    })
+};
 
 // sychronous
 console.log("task1");
@@ -15,7 +16,7 @@ console.log("task3");
 
 // asychronous
 console.log("task1");
-setTimeout(()=>{
+setTimeout(() => {
     console.log("task2");
 }, 2000);
 console.log("task3");
@@ -51,7 +52,7 @@ console.log("task3");
 //     count3++
 //     if (count3<=5) {
 //        console.log("hello!");
-        
+
 //     }else{
 // clearInterval(myinterval)
 //     } }, 1000);
@@ -61,6 +62,16 @@ console.log("task3");
 // .value
 
 // calculator
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -104,42 +115,148 @@ console.log("task3");
 
 
 // setTimeout
-let promises1 =new Promise((resolve,reject)=>{
+// let promises1 = new Promise((resolve, reject) => {
 
-setTimeout(()=>{
+//     setTimeout(() => {
 
-    let order =false;
+//         let order = false;
 
-    if (order) {
+//         if (order) {
 
-    resolve("order successfull")
+//             resolve("order successfull")
+//         }
+//         else {
+
+//             reject("order fail!")
+//         }
+
+//     }, 3000);
+
+// });
+
+// console.log(promises1);
+
+
+// promises1.then((results) => {
+
+//     console.log(results);
+
+// })
+//     .catch((error) => {
+
+//         console.log(error);
+
+//     });
+// setTimeout(() => {
+//     console.log(promises1);
+
+// }, 5000)
+
+
+
+
+
+
+
+
+// promise chaning
+function dinner() {
+    return new Promise((resolve) => {
+        resolve("dinner done")
+      
+    })
+
 }
-else{
+function excersise() {
+    return new Promise((resolve ) => {
+        resolve("complete")
+    
+    })
 
-reject("order fail!")
 }
+function playgamses() {
+    return new Promise((resolve,) => {
+        resolve("games completed")
+        
+    })}
 
-},3000);
 
-});
+dinner()
+//     .then(function (results) {
+//         console.log(results);
+//         return excersise;
+//     })
+//     .then(function (results) {
+//         console.log(results);
+//         return playgamses;
+//     })
+//     .then(function (results) {
+//         console.log(results);
+//    return watchtv;
+//   })
+//  .then(function (results) {
+//         console.log(results);
 
-console.log(promises1);
+//     })
+// .catch((error) => {
+//         error("not done!");
+
+//     })
+
+async function rotinue() {
+  let results = await  dinner();
+  console.log(results);
+
+ let results1 = await excersise();
+  console.log(results1);
+
+   let results2 = await  playgamses();
+  console.log(results2);
+
+}
+  rotinue();
 
 
-promises1.then((results)=>{
 
-console.log(results);
 
-})
-.catch((error)=>{
 
-console.log(error);
 
-});
-setTimeout(()=>{
-console.log(promises1);
 
-},5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
